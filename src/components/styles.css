@@ -1,0 +1,20 @@
+.div__container{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+.div__container2{
+  width: auto;
+ display: flex;
+ flex-direction: column;
+ margin: 0 auto;
+}
+.div__container2>div{
+ border: 1px solid #cccc;
+}
+
+.div__container>p{
+ margin: 2px;
+ border: 1px solid black;
+}
